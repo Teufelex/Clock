@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-image: linear-gradient(black, red);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  svg {
+    display: block;
+  }
+  
+  span {
+    color: white;
+  }
+  
+  .clock {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 50%;
+  } 
+  
+  .clock__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 50%;
+  }
+  
+  .clock__arrow {
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  .clock__timer {
+    position: absolute;
+  }
